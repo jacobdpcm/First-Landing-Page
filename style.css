@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-
+  
 /*Header*/
   .header {
     padding: 10px 150px;
@@ -55,9 +55,15 @@ body {
     background: #3882F6;
     border: 0;
     color: #F9FAF8;
-    padding: 5px 20px;
+    padding: 8px 30px;
     border-radius: 5px;
     margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .image img {
+    height: 250px;
+    width: auto;
   }
 
   /*Info*/
@@ -94,4 +100,62 @@ body {
 
   .container div {
     text-align: center;
+  }
+
+  /*Testimonial*/
+  .testimonial {
+    padding: 100px 300px;
+    background: #E5E7EB;
+  }
+
+  .testimonial1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testimonial2 {
+    font-weight: 700;
+    text-align: end;
+  }
+
+  /*Call to Action*/
+  .cta {
+    background: #3882F6;
+    margin: 80px 180px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ctaText1 {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .ctaText2 {
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+
+  .cta button {
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: 3px solid #F9FAF8;
+  }
+
+  /*Footer*/
+  .footer {
+    background: #1F2937;
+    padding: 40px;
+    text-align: center;
+    color: #F9FAF8;
   }
